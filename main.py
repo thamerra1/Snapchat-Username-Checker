@@ -114,7 +114,7 @@ class Checker:
 if __name__ == "__main__":
     check = Checker(
         threads=500,
-        length=4,  # username length
+        length=3,  # username length
         webhook="",
     )
     check.main_thread()
